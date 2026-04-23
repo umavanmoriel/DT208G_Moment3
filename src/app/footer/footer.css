@@ -1,11 +1,10 @@
 /* Footer */
 
 footer {
-    background-color: #422e21;
-    padding: 2rem 2rem 1.5rem 2rem;
+    background-color: #457C9B;
+    padding: 2rem 2rem 1rem 2rem;
     margin-top: auto;
     border-top: 1px solid rgba(140, 190, 180, 0.3);
-    text-align: center;
 }
 
 .nav-footer-list {
@@ -13,8 +12,8 @@ footer {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+    justify-content: space-between;
+    gap: 0.1rem;
 }
 
 .nav-footer-item {

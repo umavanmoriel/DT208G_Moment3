@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
   templateUrl: './startpage.html',
   styleUrl: './startpage.css',
 })
-export class Startpage {}
+export class Startpage {
+
+  startpageHeroImage : string = "/images/climate.jpg";
+
+  startpageClimateImage : string  = "/images/climate1.jpg";
+
+  startpageIsebergImage : string  = "/images/climate2.jpg";
+}

@@ -1,22 +1,31 @@
-<div class="converter-containers">   
-    <div class="converter-container">
-        <div class="input-container">
-            <label for="celsiusValue" class="converter-label">Celsius (°C)</label>
-            <input type="number" id="celsiusValue" class="converter-input" [(ngModel)]="celsiusValue" (ngModelChange)="convertToFahrenheit()">
+<div class="converter-container">
+    <h1>Klimatkonverter</h1>
+    <p>
+        Vår konverterare gör det enkelt! Du kan snabbt växla mellan Celsius och Fahrenheit när du läser väderrapporter från USA. 
+        Du kan också omvandla hur mycket isar smälter eller hur mycket haven stiger - från meter till feet. 
+        Oavsett om du är elev, lärare eller bara nyfiken så hjälper våra verktyg dig att förstå klimatdata. 
+        Tillsammans kan vi lära oss mer och göra skillnad för vår planet!
+    </p>
+    <div class="converter-blocks-container">   
+        <div class="converter-block">
+            <div class="input-container">
+                <label for="celsiusValue" class="converter-label">Celsius (°C)</label>
+                <input type="number" id="celsiusValue" class="converter-input" [(ngModel)]="celsiusValue" (ngModelChange)="convertToFahrenheit()">
+            </div>
+            <div class="input-container">
+                <label for="fahrenValue" class="converter-label">Fahrenheit (°F)</label>
+                <input type="number" id="fahrenValue" class="converter-input" [(ngModel)]="fahrenValue" (ngModelChange)="convertToCersius()">
+            </div>
         </div>
-        <div class="input-container">
-            <label for="fahrenValue" class="converter-label">Fahrenheit (°F)</label>
-            <input type="number" id="fahrenValue" class="converter-input" [(ngModel)]="fahrenValue" (ngModelChange)="convertToCersius()">
+        <div class="converter-block">
+            <div class="input-container">
+                <label for="meterValue" class="converter-label">Meter (m)</label>
+                <input type="number" id="meterValue" class="converter-input" [(ngModel)]="meterValue" (ngModelChange)="convertToFeet()">
+            </div>
+            <div class="input-container">
+                <label for="feetValue" class="converter-label">Feet (ft)</label>
+                <input type="number" id="feetValue" class="converter-input" [(ngModel)]="feetValue" (ngModelChange)="convertToMeter()">
+            </div>
         </div>
     </div>
-    <div class="converter-container">
-        <div class="input-container">
-            <label for="meterValue" class="converter-label">Meter (m)</label>
-            <input type="number" id="meterValue" class="converter-input" [(ngModel)]="meterValue" (ngModelChange)="convertToFeet()">
-        </div>
-        <div class="input-container">
-            <label for="feetValue" class="converter-label">Feet (ft)</label>
-            <input type="number" id="feetValue" class="converter-input" [(ngModel)]="feetValue" (ngModelChange)="convertToMeter()">
-        </div>
-    </div>
-</div> 
+</div>
