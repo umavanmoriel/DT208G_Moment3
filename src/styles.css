@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #faebd7;
+    justify-content: space-between;
 }
 
 /* Main */
@@ -26,4 +27,9 @@ main {
     width: 100%;
     box-sizing: border-box;
     background-color: #faebd7;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

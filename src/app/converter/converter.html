@@ -1,1 +1,10 @@
-<p>converter works!</p>
+<div class="converter-container">
+    <div class="temperature-input-container">
+        <label for="celsiusValue" class="temperature-label">Celsius (°C)</label>
+        <input type="number" id="celsiusValue" class="temperature-input" [(ngModel)]="celsiusValue" (ngModelChange)="convertToFahrenheit()">
+    </div>
+    <div class="temperature-input-container">
+        <label for="fahrenValue" class="temperature-label">Fahrenheit (°F)</label>
+        <input type="number" id="fahrenValue" class="temperature-input" [(ngModel)]="fahrenValue" (ngModelChange)="convertToCersius()">
+    </div>
+</div>

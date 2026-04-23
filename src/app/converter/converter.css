@@ -1,0 +1,79 @@
+.converter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border: 1px solid #c5908e;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.temperature-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.temperature-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #493d26;
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+}
+
+.temperature-input {
+    width: 200px;
+    padding: 0.75rem 1rem;
+    font-family: 'Segoe UI', system-ui, -apple-system, 'Inter', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    color: #2c1f16;
+    background-color: #faebd7;
+    border: 2px solid #c5908e;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.temperature-input:hover {
+    border-color: #6f4e37;
+}
+
+.temperature-input:focus {
+    border-color: #6f4e37;
+    box-shadow: 0 0 0 3px rgba(111, 78, 55, 0.15);
+}
+
+.converter-button {
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-family: 'Segoe UI', system-ui, -apple-system, 'Inter', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #6f4e37;
+    color: #faebd7;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.converter-button:hover {
+    background-color: #493d26;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.converter-button:focus {
+    outline: none;
+}
