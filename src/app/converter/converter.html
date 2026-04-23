@@ -1,10 +1,22 @@
-<div class="converter-container">
-    <div class="temperature-input-container">
-        <label for="celsiusValue" class="temperature-label">Celsius (°C)</label>
-        <input type="number" id="celsiusValue" class="temperature-input" [(ngModel)]="celsiusValue" (ngModelChange)="convertToFahrenheit()">
+<div class="converter-containers">   
+    <div class="converter-container">
+        <div class="input-container">
+            <label for="celsiusValue" class="converter-label">Celsius (°C)</label>
+            <input type="number" id="celsiusValue" class="converter-input" [(ngModel)]="celsiusValue" (ngModelChange)="convertToFahrenheit()">
+        </div>
+        <div class="input-container">
+            <label for="fahrenValue" class="converter-label">Fahrenheit (°F)</label>
+            <input type="number" id="fahrenValue" class="converter-input" [(ngModel)]="fahrenValue" (ngModelChange)="convertToCersius()">
+        </div>
     </div>
-    <div class="temperature-input-container">
-        <label for="fahrenValue" class="temperature-label">Fahrenheit (°F)</label>
-        <input type="number" id="fahrenValue" class="temperature-input" [(ngModel)]="fahrenValue" (ngModelChange)="convertToCersius()">
+    <div class="converter-container">
+        <div class="input-container">
+            <label for="meterValue" class="converter-label">Meter (m)</label>
+            <input type="number" id="meterValue" class="converter-input" [(ngModel)]="meterValue" (ngModelChange)="convertToFeet()">
+        </div>
+        <div class="input-container">
+            <label for="feetValue" class="converter-label">Feet (ft)</label>
+            <input type="number" id="feetValue" class="converter-input" [(ngModel)]="feetValue" (ngModelChange)="convertToMeter()">
+        </div>
     </div>
-</div>
+</div> 
