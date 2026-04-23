@@ -4,7 +4,8 @@
     align-items: center;
     text-align: center;
     gap: 40px;
-    padding: 10px 200px;
+    padding: 50px 200px;
+    font-size: 1.125rem;
 }
 
 .converter-blocks-container {
@@ -19,9 +20,10 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-    border: 1px solid #c5908e;
+    border: 1px solid #003F51;
     border-radius: 10px;
     padding: 50px;
+    background-color: #B5C1D9;
 }
 
 .input-container {
@@ -36,7 +38,7 @@
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 500;
-    color: #493d26;
+    color: #003F51;
     font-size: 0.875rem;
     letter-spacing: 0.3px;
 }
@@ -46,20 +48,20 @@
     padding: 0.75rem 1rem;
     font-family: 'Segoe UI', system-ui, -apple-system, 'Inter', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
-    color: #2c1f16;
-    background-color: #faebd7;
-    border: 2px solid #c5908e;
+    color: #003F51;
+    background-color: #D1DAEB;
+    border: 2px solid #003F51;
     border-radius: 0.5rem;
     transition: all 0.2s ease;
     outline: none;
 }
 
 .temperature-input:hover {
-    border-color: #6f4e37;
+    border-color: #003F51;
 }
 
 .temperature-input:focus {
-    border-color: #6f4e37;
+    border-color: #003F51;
     box-shadow: 0 0 0 3px rgba(111, 78, 55, 0.15);
 }
 
