@@ -1,3 +1,19 @@
+# Syfte och mål
+
+Uppgiftens syfte var att:
+
+-- Få grundläggande kunskap om Angular och hur ramverket används för att bygga dynamiska webbapplikationer
+
+-- Förstå hur en Angular-applikation är uppbyggd och hur de olika delarna samarbetar
+
+-- Kunna använda CLI-verktyg för att testa och publicera optimerad kod
+
+-- Kunskaperna ska sedan kunna användas i egna webbprojekt
+
+ ## Publicerad webplats
+[Moment3](https://chipper-croquembouche-a0285e.netlify.app/startpage)
+
+ 
 # DT208GMoment3
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.8.
