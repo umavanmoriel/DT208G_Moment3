@@ -25,12 +25,46 @@
     cursor: pointer;
     transition: all 0.2s ease;
     border: none;
-    background-color: #6f4e37;
+    background-color: #457C9B;
     color: #faebd7;
 }
 
 .error-button:hover {
-    background-color: #493d26;
+    background-color: #4D99BD;
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .container-404 {
+        gap: 30px;
+        margin: 40px 20px;
+    }
+    
+    .error-image {
+        height: 200px;
+    }
+    
+    .error-button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container-404 {
+        gap: 25px;
+        margin: 30px 15px;
+    }
+    
+    .error-image {
+        height: 150px;
+    }
+    
+    .error-button {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
 }

@@ -54,3 +54,49 @@ header {
 .current {
     color: #296486;
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 1.5rem;
+    }
+    
+    .nav-header-list {
+        gap: 1.5rem;
+    }
+    
+    .nav-header-link {
+        font-size: 1rem;
+        padding: 0.4rem 0.15rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.75rem 1rem;
+    }
+    
+    .nav-header-list {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-header-link {
+        font-size: 1.1rem;
+        padding: 0.3rem 0.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-header-link::after {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+    }
+    
+    .nav-header-link:hover::after {
+        width: 50%;
+    }
+}
