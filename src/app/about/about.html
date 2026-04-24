@@ -1,6 +1,27 @@
 <div class="about-container">
     <h1>Lösning</h1>
-    <p></p>
+    <p>Jag skapade en webbplats om klimat och väderförändringar. Många länder till exempel som USA använder andra enheter än vi gör i Sverige. 
+        Därför kan man använda konverterare för att konvertera Celsius till Fahrenheit och meter till feet så att man kan förstå hur mycket isar smälter och hur mycket haven stiger.
+        GitHub användes som versionshanterare och Netlify för att publicera websidan.
+    </p>
+    <h2>Navigering</h2>
+    <p>Jag använde Angulars router-modul för att skapa en meny längst upp på sidan. Man kan enkelt klicka sig mellan alla tre undersidor.
+    <h2>Konverterare</h2>
+    <p>
+        Jag byggde två separata konverterare. Den första är en temperaturomvandlare mellan Celsius och Fahrenheit. 
+        När användaren skriver i Celsius-fältet anropas en funktion som använder formeln Fahrenheit = (Celsius * 1.8) + 32 och Fahrenheit-fältet uppdateras direkt. 
+        Samma sak åt andra hållet och då används formeln Celsius = (Fahrenheit - 32) * 5/9. Den andra omvandlaren är för längd mellan meter och feet. 
+        Skriver man i meter anropas en funktion med formeln Feet = meter * 3.28 och skriver man i feet används formeln Meter = feet * 0.3048.
+        För att detta ska fungera använde jag en klass Converter med properties oh metoder som convertToFahrenheit() osv. 
+        Jag använde även [(ngModel)] som synkar värdet i input-fältet med variabeln i komponenten och (ngModelChange) som anropar 
+        en funktion varje gång värdet ändras och räknar om den andra enheten. Jag använde också parseFloat och toFixed för att få snygga decimaltal. 
+    </p>
     <h2>Slutsatser</h2>
-    <p></p>
+    <p>
+        Angular var helt nytt för mig men jag tyckte om hur den fungerar. Strukturen är tydlig logisk och lätt att följa. 
+        Man förstår snabbt var olika filer ska ligga. Jag gillar verkligen att man kan återanvända komponenter på olika ställen. 
+        Till exempel kan jag återanvända header och footer på flera sidor utan att behöva skriva om koden. Allt är uppdelat i 
+        HTML CSS och TypeScript så jag vet alltid var jag ska leta och det är lätt att hitta och ändra rätt sak. 
+        Jag ser fram emot att använda Angular igen i framtida projekt.
+    </p>
 </div>
