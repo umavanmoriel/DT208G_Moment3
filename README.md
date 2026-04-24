@@ -11,7 +11,7 @@ Uppgiftens syfte var att:
 -- Kunskaperna ska sedan kunna användas i egna webbprojekt
 
  ## Publicerad webplats
- (Moment3)[https://chipper-croquembouche-a0285e.netlify.app/startpage]
+[Moment3](https://chipper-croquembouche-a0285e.netlify.app/startpage)
 
  
 # DT208GMoment3
